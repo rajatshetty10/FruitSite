@@ -1,0 +1,36 @@
+$white: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+  height: 10vh;
+  position: absolute;
+
+  ul {
+    display: flex;
+
+    li {
+      list-style: none;
+      text-decoration: none;
+      color: $white;
+      margin: 2rem 1rem 0 2rem;
+      font-size: 1.1rem;
+
+      a {
+        color: $white;
+        text-decoration: none;
+      }
+
+      &:hover {
+        border-bottom: 0.1rem solid $white;
+        cursor: pointer;
+      }
+    }
+  }
+}
