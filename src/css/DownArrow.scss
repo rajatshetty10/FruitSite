@@ -1,0 +1,15 @@
+#svg {
+  position: relative;
+  cursor: pointer;
+  animation: arrow 1s infinite alternate;
+}
+
+@keyframes arrow {
+  from {
+    top: 0px;
+  }
+
+  to {
+    top: 10px;
+  }
+}
