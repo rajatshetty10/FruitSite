@@ -2,8 +2,10 @@ $light: #fff;
 $dark: #0c0d0d;
 
 .navbar {
-  position: absolute;
+  position: fixed;
   height: 10vh;
+  background: #f0f5fd;
+  z-index: 1;
 
   ul {
     display: flex;

@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Homepage from "./components/Homepage";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import DownArrow from "./components/DownArrow";
 import "./App.scss";
 
 function App() {
@@ -22,9 +21,6 @@ function App() {
           <Contact />
         </Route>
       </Switch>
-      <div className="arrow">
-        <DownArrow />
-      </div>
     </Router>
   );
 }
