@@ -3,9 +3,12 @@ $dark: #0c0d0d;
 
 .navbar {
   position: fixed;
+  top: 0;
+  left: 0;
   height: 10vh;
-  background: #f0f5fd;
-  z-index: 1;
+  width: 100%;
+  background: linear-gradient(to left, #6f553a 50%, #c9ae77);
+  z-index: 5;
 
   ul {
     display: flex;
@@ -16,9 +19,9 @@ $dark: #0c0d0d;
       font-size: 1.1rem;
 
       a {
-        color: $dark;
+        color: $light;
         text-decoration: none;
-        font-weight: bold;
+        font-weight: bolder;
       }
 
       &:hover {

@@ -1,12 +1,13 @@
+import Data from '../data/data';
+import '../css/Cards.scss';
 import Card from './Card';
+import { useEffect, useState } from 'react';
 
 const Cards = () => {
-  const array = ['card1', 'card2', 'card3', 'card4'];
-
   return (
-    <div>
-      {array.map((element) => (
-        <Card title={element} />
+    <div className="cards">
+      {Data.map(({ id, title, image }) => (
+        <Card key={id} title={title} image={image} id={id} />
       ))}
     </div>
   );

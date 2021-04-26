@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Homepage from "./components/Homepage";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 import "./App.scss";
+import Fruit from "./pages/Fruit";
 
 function App() {
   return (
@@ -12,13 +13,16 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact>
-          <Homepage />
+          <Home />
         </Route>
         <Route path="/about">
           <About />
         </Route>
         <Route path="/contact">
           <Contact />
+        </Route>
+        <Route path="/fruit/:slug">
+          <Fruit />
         </Route>
       </Switch>
     </Router>

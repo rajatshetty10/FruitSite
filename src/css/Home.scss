@@ -1,17 +1,17 @@
 $light: #fff;
 $dark: #0c0d0d;
 
-.homepage {
+.Home {
   position: relative;
   height: 100vh;
-  background: linear-gradient(to bottom, #f0f5fd 50%, rgb(230, 227, 227));
+  background: linear-gradient(to top left, #6f553a 50%, #c9ae77);
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   .column-left {
-    h3 {
-      color: $dark;
+    h2 {
+      color: $light;
       margin: 2rem;
       font-size: xx-large;
     }
@@ -26,6 +26,11 @@ $dark: #0c0d0d;
     }
   }
 
+  h6 {
+    font-style: italic;
+    padding: 0.2rem;
+  }
+
   .arrow {
     position: absolute;
     width: 100%;
@@ -34,7 +39,7 @@ $dark: #0c0d0d;
     padding: 1.5rem;
   }
 
-  .categories {
-    height: 200vh;
+  .cards {
+    background: linear-gradient(to bottom, #f0f5fd 50%, rgb(230, 227, 227));
   }
 }
