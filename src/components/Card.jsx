@@ -1,5 +1,5 @@
 import { useHistory } from 'react-router-dom';
-import '../css/Card.scss';
+import '../styles/Card.scss';
 
 const Card = ({ id, title, image }) => {
   const history = useHistory();

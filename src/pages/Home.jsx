@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from '../components/Cards';
 import DownArrow from '../components/DownArrow';
-import '../css/Home.scss';
+import '../styles/Home.scss';
 
 function Home() {
   return (

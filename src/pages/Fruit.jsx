@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import Data from '../data/data';
+import '../styles/Fruit.scss';
 
 const Fruit = () => {
   const { slug } = useParams();
@@ -9,12 +10,26 @@ const Fruit = () => {
   console.log(fruitData);
 
   return (
-    <div className="fruit" style={{ marginTop: '5rem' }}>
+    <div className="fruit">
       <h1>{fruitData.title}</h1>
-      <h3>{fruitData.description}</h3>
-      {fruitData.images.map((fruitImg, i) => {
-        return <img key={i} src={fruitImg.image} alt="fruit" />;
-      })}
+      <br></br>
+      <br></br>
+      <h4>{fruitData.description}</h4>
+      <div className="img">
+        {fruitData.images.map((fruitImg, i) => {
+          return (
+            <>
+              <h3>{fruitImg.fruitName}</h3>
+              <h5>{fruitImg.fruitDesc}</h5>
+              <img
+                key={i}
+                src={fruitImg.image}
+                alt={`${fruitData.title} fruit`}
+              />
+            </>
+          );
+        })}
+      </div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import '../css/DownArrow.scss';
+import '../styles/DownArrow.scss';
 
 const DownArrow = () => {
   return (
