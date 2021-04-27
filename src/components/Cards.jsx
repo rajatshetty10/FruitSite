@@ -1,7 +1,6 @@
 import Data from '../data/data';
 import '../styles/Cards.scss';
 import Card from './Card';
-import { useEffect, useState } from 'react';
 
 const Cards = () => {
   return (

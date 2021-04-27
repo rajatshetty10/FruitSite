@@ -99,27 +99,27 @@ const fruits = [
     "images": [
       {
         "fruitName": "Strawberries",
-        "image": "images/berries/strawberries.jpg",
+        "image": "/images/berries/strawberries.jpg",
         "fruitDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, minima.",
       },
       {
         "fruitName": "Raspberries",
-        "image": "images/berries/raspberries.jpg",
+        "image": "/images/berries/raspberries.jpg",
         "fruitDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, minima.",
       },
       {
         "fruitName": "Blueberries",
-        "image": "images/berries/blueberries.jpg",
+        "image": "/images/berries/blueberries.jpg",
         "fruitDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, minima.",
       },
       {
         "fruitName": "Kiwi Fruit",
-        "image": "images/berries/kiwifruit.jpg",
+        "image": "/images/berries/kiwifruit.jpg",
         "fruitDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, minima.",
       },
       {
         "fruitName": "Passion Fruit",
-        "image": "images/berries/passionfruit.jpg",
+        "image": "/images/berries/passionfruit.jpg",
         "fruitDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, minima.",
       },
     ]
