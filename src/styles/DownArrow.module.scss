@@ -1,7 +1,7 @@
-#svg {
+.svg {
   position: relative;
   cursor: pointer;
-  animation: arrow 0.7s infinite alternate;
+  animation: arrow 0.8s infinite alternate;
 }
 
 @keyframes arrow {
@@ -10,6 +10,6 @@
   }
 
   to {
-    top: 5px;
+    top: 6px;
   }
 }

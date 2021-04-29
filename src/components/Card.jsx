@@ -1,5 +1,5 @@
 import { useHistory } from 'react-router-dom';
-import '../styles/Card.scss';
+import styles from '../styles/Card.module.scss';
 
 const Card = ({ id, title, image }) => {
   const history = useHistory();
@@ -9,9 +9,9 @@ const Card = ({ id, title, image }) => {
   };
 
   return (
-    <div className="card" onClick={handleRoute}>
+    <div className={styles.card} onClick={handleRoute}>
       <img src={image} alt="" />
-      <div className="text">
+      <div className={styles.text}>
         <h3>{title}</h3>
       </div>
     </div>

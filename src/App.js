@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
-import "./App.scss";
 import Fruit from "./pages/Fruit";
+import Footer from "./components/Footer";
+import "./App.scss";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Fruit />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }

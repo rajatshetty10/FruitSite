@@ -1,9 +1,9 @@
-import '../styles/DownArrow.scss';
+import styles from '../styles/DownArrow.module.scss';
 
 const DownArrow = () => {
   return (
     <svg
-      id="svg"
+      className={styles.svg}
       height="20"
       width="20"
       viewBox="0 0 512 512"
