@@ -3,4 +3,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 4rem;
+
+  #svg {
+    #Contact {
+      #Location {
+        animation: Animate1 0.8s infinite alternate;
+      }
+
+      #Email {
+        animation: Animate2 0.8s infinite alternate;
+      }
+
+      #Phone {
+        animation: Animate1 0.8s infinite alternate;
+      }
+    }
+  }
+}
+
+@keyframes Animate1 {
+  from {
+    transform: translateY(-0.4rem);
+  }
+  to {
+    transform: translateY(0.4rem);
+  }
+}
+
+@keyframes Animate2 {
+  from {
+    transform: translateY(-0.2rem);
+  }
+  to {
+    transform: translateY(0.2rem);
+  }
 }
