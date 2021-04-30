@@ -4,7 +4,9 @@ import styles from '../styles/Footer.module.scss';
 const Footer = () => {
   return (
     <h3 className={styles.Footer}>
-      Made with <FaHeart style={{ color: 'red' }} /> in India
+      Made with&nbsp;
+      <FaHeart className={styles.heart} />
+      &nbsp;in India
     </h3>
   );
 };

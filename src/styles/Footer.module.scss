@@ -4,4 +4,18 @@
   height: 8vh;
   text-align: center;
   padding: 1rem 0;
+
+  .heart {
+    color: red;
+    animation: heart 0.7s infinite alternate;
+  }
+}
+
+@keyframes heart {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
 }
